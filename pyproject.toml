@@ -1,0 +1,35 @@
+[build-system]
+requires = ['setuptools>=61.0', 'wheel']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'rPickle'
+dynamic = ['version']
+requires-python = '>=3.11'
+description = 'A safe and efficient Python serialization library'
+readme = 'README.md'
+license = {text = 'MIT'}
+authors = [
+    {name = 'Rainwalker', email = 'lmx1w3r@outlook.com'},
+]
+keywords = ['serialization', 'pickle', 'binary']
+classifiers = [
+    'Development Status :: 4 - Beta',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: MIT License',
+    'Programming Language :: Python',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "rPickle.__version__"}
+
+[project.optional-dependencies]
+dev = ['pytest>=7.0', 'pytest-benchmark']
+
+[tool.setuptools.packages.find]
+where = ['src']
+exclude = ['bench*', 'test*']
+
+[tool.setuptools.package-data]
+rPickle = ['py.typed']
