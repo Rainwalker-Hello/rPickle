@@ -1,0 +1,16 @@
+What's New In rPickle 0.14
+====================================
+
+:Release: 2026-07-15
+:Version: 0.14.0
+
+Preparation
+-----------
+
+- Internal groundwork for v4 protocol
+- No user-facing features
+
+Note
+----
+
+This is a transitional release between 0.13.0 (v3 archived) and 0.15.0 (v4 released).

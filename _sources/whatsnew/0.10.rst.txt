@@ -1,0 +1,25 @@
+What's New In rPickle 0.10
+====================================
+
+:Release: 2026-07-09
+:Version: 0.10.1
+
+Improvements
+------------
+
+- ``_SENTINEL_REG`` reference count threshold optimized
+- Cache cleanup logic made more accurate
+
+---
+
+.. _v0.10.0:
+
+0.10.0 — 2026-07-09
+------------------------------------
+
+Protocol Upgrade
+----------------
+
+- v3 protocol introduced
+- ``sentinel`` caching mechanism (``_SENTINEL_REG``)
+- Identity preservation for ``sentinel`` objects
