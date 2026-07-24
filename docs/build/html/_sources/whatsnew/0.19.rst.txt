@@ -1,0 +1,18 @@
+What's New In rPickle 0.19
+====================================
+
+:Release: 2026-07-24
+:Version: 0.19.0
+
+Performance Optimization
+------------------------
+
+- ``_fix`` now only traverses containers marked as "dirty" (those containing ``_R`` placeholders)
+- Previously, ``_fix`` scanned the entire object tree on every deserialization
+- Now: only containers with unresolved references are visited
+
+How it works
+------------
+
+- During deserialization, when a ``_R`` placeholder is encountered, its container is recorded
+- After the object is fully constructed, ``_fix`` runs only on those recorded containers

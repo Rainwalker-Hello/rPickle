@@ -1,0 +1,31 @@
+What's New In rPickle 0.17
+====================================
+
+:Release: 2026-07-22
+:Version: 0.17.1
+
+Architecture Refactor
+---------------------
+
+- ``core.py`` reduced to a pure dispatcher — all protocol implementations removed
+- Hardcoded ``match protocol`` replaced with ``importlib`` dynamic loading
+- v4 protocol moved to ``pcls/core_p4.py``
+- All historical protocols (v1–v4) now live in ``pcls/``
+- Adding a new protocol only requires adding ``pcls/core_pX.py`` — no changes to ``core.py``
+
+New Features
+------------
+
+- :class:`rPickle.set_max_size_ctx` — context manager for temporary size limits
+- :func:`rPickle.dis` — disassembler for human-readable rPickle bytecode
+
+Removals
+--------
+
+- ``rPickle.ext.defaultdict_ext`` (deprecated in 0.16.0)
+
+Testing & Coverage
+------------------
+
+- 98 tests, all passing
+- ``core.py``, ``ext.py``, ``pcls/core_p4.py`` at 100% coverage

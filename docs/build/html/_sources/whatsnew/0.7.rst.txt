@@ -1,0 +1,10 @@
+What's New In rPickle 0.7
+====================================
+
+:Release: 2026-06-27
+:Version: 0.7.0
+
+Engineering
+-----------
+
+- ``pyproject.toml`` adjustments

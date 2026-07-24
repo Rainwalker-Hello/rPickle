@@ -1,0 +1,24 @@
+What's New In rPickle 0.9
+====================================
+
+:Release: 2026-07-04
+:Version: 0.9.1
+
+Security Fix
+------------
+
+- Introduced ``_MAX_SIZE`` limit to prevent DoS attacks
+- :func:`rPickle.set_max_size()` allows adjusting the limit
+- Fixed memory exhaustion vulnerability from malformed length fields (user-reported)
+
+---
+
+.. _v0.9.0:
+
+0.9.0 — 2026-06-30
+------------------------------------
+
+Documentation
+-------------
+
+- README updated: added "No recursion limit" and "Zero dependencies" features

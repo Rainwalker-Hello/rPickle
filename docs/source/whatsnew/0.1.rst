@@ -1,0 +1,30 @@
+What's New In rPickle 0.1
+====================================
+
+:Release: 2026-06-13
+:Version: 0.1.0
+
+First Public Release
+--------------------
+
+- First PyPI release
+- Modular package structure (``core.py``, ``ext.py``)
+- Basic type serialization/deserialization:
+  - ``None``, ``bool``, ``int``, ``float``, ``complex``
+  - ``str``, ``bytes``, ``bytearray``
+  - ``list``, ``tuple``, ``set``, ``frozenset``
+  - ``dict``
+  - ``range``, ``slice``
+- 4 built-in extensions:
+  - ``datetime_ext``
+  - ``Decimal_ext``
+  - ``UUID_ext``
+  - ``Fraction_ext``
+- Streaming I/O (``BinaryIO``)
+- ``_MAGIC`` + version control
+- ``__all__`` exports
+
+Testing
+-------
+
+- 27 tests
