@@ -1,0 +1,17 @@
+What's New In rPickle 0.18
+====================================
+
+:Release: 2026-07-23
+:Version: 0.18.0
+
+Performance
+-----------
+
+- v5 protocol now uses varint for sentinel ids, reducing payload size for small ids
+- ``_fix`` hardcoded match improves dispatch speed over ``_hashable()``
+
+Testing
+-------
+
+- 98 tests passed
+- 4.58s runtime

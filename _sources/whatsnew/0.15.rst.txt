@@ -1,0 +1,19 @@
+What's New In rPickle 0.15
+====================================
+
+:Release: 2026-07-16
+:Version: 0.15.0
+
+Protocol Upgrade
+----------------
+
+- v4 protocol officially introduced
+- ``complex`` serialization optimized (real/imag packed directly)
+- ``_STRUCT_COMPILE`` and ``_OBM`` promoted to global constants
+- Backward compatibility for loading v1–v3 data
+
+Testing
+-------
+
+- 79 tests, all passing
+- ``core.py`` coverage: 97%

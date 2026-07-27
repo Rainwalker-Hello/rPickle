@@ -1,0 +1,18 @@
+What's New In rPickle 0.8
+====================================
+
+:Release: 2026-06-29
+:Version: 0.8.0
+
+New Extensions
+--------------
+
+- ``date_ext``
+- ``time_ext``
+- Built-in extensions total: 8
+
+Documentation
+-------------
+
+- Added "Overriding Built-in Types" section
+- Improved PyPI and GitHub links

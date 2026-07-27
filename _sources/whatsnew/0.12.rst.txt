@@ -1,0 +1,37 @@
+What's New In rPickle 0.12
+====================================
+
+:Release: 2026-07-15
+:Version: 0.12.1
+
+New Extensions
+--------------
+
+Five new built-in extensions added in one batch:
+
+- ``Counter_ext`` — :class:`collections.Counter`
+- ``OrderedDict_ext`` — :class:`collections.OrderedDict`
+- ``IPv4Address_ext`` — :class:`ipaddress.IPv4Address`
+- ``IPv6Address_ext`` — :class:`ipaddress.IPv6Address`
+- ``array_ext`` — :class:`array.array`
+
+Built-in extensions total: 8 → 13
+
+Testing
+-------
+
+- 63 tests (15 new)
+- Broader extension coverage
+
+---
+
+.. _v0.12.1:
+
+0.12.1 — 2026-07-15
+------------------------------------
+
+Hotfix
+------
+
+- Fixed missing README updates from 0.12.0
+- Improved ``set_max_size`` docstring

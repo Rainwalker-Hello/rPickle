@@ -1,0 +1,18 @@
+What's New In rPickle 0.20
+====================================
+
+:Release: 2026-07-27
+:Version: 0.20.0
+
+Performance Optimization
+------------------------
+
+- Replaced ``if length == 0:`` with ``if not length:`` for faster truthiness checks
+- Removed ``*obj.items(),`` temporary tuple in ``_fix``, direct dict iteration
+
+Benchmark
+---------
+
+- 98 tests passed
+- 3.87s runtime (10% faster than 0.19.0)
+- Cumulative improvement: 26.8% faster than 0.17.0

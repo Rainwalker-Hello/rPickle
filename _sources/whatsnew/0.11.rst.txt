@@ -1,0 +1,17 @@
+What's New In rPickle 0.11
+====================================
+
+:Release: 2026-07-15
+:Version: 0.11.2
+
+Core Breakthrough
+-----------------
+
+- Introduced ``_R`` placeholder + ``_fix`` post-processing
+- Fully resolved circular references for immutable types:
+  ``tuple``, ``frozenset``, ``frozendict``
+
+Testing
+-------
+
+- Circular reference coverage is now complete

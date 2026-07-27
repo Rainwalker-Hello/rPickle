@@ -1,0 +1,12 @@
+What's New In rPickle 0.2
+====================================
+
+:Release: 2026-06-14
+:Version: 0.2.0
+
+Architecture Refactor
+---------------------
+
+- ``_LOAD`` class removed
+- Replaced with ``Frame`` class + ``push_value`` closure
+- Deserialization logic is now more compact

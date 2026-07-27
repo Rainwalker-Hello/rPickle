@@ -1,0 +1,23 @@
+What's New In rPickle 0.3
+====================================
+
+:Release: 2026-06-18
+:Version: 0.3.0
+
+Core Improvement
+----------------
+
+- ``Extension`` class officially introduced
+- Extension system upgraded from dict-driven to class-driven
+- Supports ``|`` composition of extensions
+
+Error Handling
+--------------
+
+- Added ``ExtensionNotFoundError``
+- Added ``UnsupportedTypeError``
+
+Testing
+-------
+
+- 31 tests

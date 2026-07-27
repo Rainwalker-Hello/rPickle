@@ -1,0 +1,24 @@
+What's New In rPickle 0.6
+====================================
+
+:Release: 2026-06-27
+:Version: 0.6.0
+
+New Extensions
+--------------
+
+- ``Path_ext``
+- ``defaultdict_ext``
+- Built-in extensions total: 6
+
+Documentation
+-------------
+
+- Extension composition example (``|``)
+- Custom extension inheritance example (``|=``)
+- Security recommendation: avoid ``eval()``, ``exec()``, ``__import__()``
+
+Testing
+-------
+
+- 41 tests

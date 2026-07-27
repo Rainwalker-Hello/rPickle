@@ -1,0 +1,22 @@
+What's New In rPickle 0.5
+====================================
+
+:Release: 2026-06-26
+:Version: 0.5.0
+
+Protocol Upgrade
+----------------
+
+- v2 protocol introduced
+- Multi-protocol support (v1, v2)
+- Extension key naming changed from ``__name__`` to ``__module__.__qualname__``
+
+Compatibility
+-------------
+
+- Minimum Python version raised from 3.10 to 3.11
+
+Documentation
+-------------
+
+- Built-in extensions table added

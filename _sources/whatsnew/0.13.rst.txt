@@ -1,0 +1,17 @@
+What's New In rPickle 0.13
+====================================
+
+:Release: 2026-07-15
+:Version: 0.13.0
+
+Protocol Migration
+------------------
+
+- v3 protocol implementation moved from ``core.py`` to ``pcls/core_p3.py``
+- Preparation for v4 protocol (0.15.0)
+
+Significance
+------------
+
+- First time rPickle actively "archived" the current protocol
+- ``pcls/`` upgraded from "legacy protocol storage" to "all protocols archive"

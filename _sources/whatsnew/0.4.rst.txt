@@ -1,0 +1,26 @@
+What's New In rPickle 0.4
+====================================
+
+:Release: 2026-06-26
+:Version: 0.4.0
+
+Stable v1 Release
+-----------------
+
+- ``sentinel`` support (Python 3.15+)
+- Security section improved (comparison with pickle)
+- ``Extension`` example refined
+- 40 tests
+
+---
+
+.. _v0.4.1:
+
+0.4.1 — 2026-06-26
+------------------------------------
+
+Improvements
+------------
+
+- ``Extension.__or__``, ``__ror__``, ``__ior__`` now include type checking
+- Added ``from __future__ import annotations``
